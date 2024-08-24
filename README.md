@@ -36,7 +36,11 @@ This is a proof of concept for the SANS TOTP project. It is a simple implementat
 
     ![Secret key value](images/secret_key.png)
 
-8. Deploy the Terraform code (updating the `otp_secret` variable value to match the secret key that you just retrieved (and is currently on your system's clipboard). During this process, you will be prompted to enter the secret key value. Paste or type the secret key value and press **Enter** (you will not see feedback as this value is marked `sensitive` in the Terraform code). You will also be prompted if you would like to continue. Type `yes` and press **Enter**.
+8. Deploy the Terraform code as shown below.
+
+    - During this process, you will be prompted to enter the secret key value. Paste or type the secret key value and press **Enter** (you will not see feedback as this value is marked `sensitive` in the Terraform code).
+
+    - You will also be prompted if you would like to continue. Type `yes` and press **Enter**.
 
     ```bash
     terraform init
