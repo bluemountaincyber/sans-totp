@@ -1,4 +1,4 @@
 variable "otp_secret" {
-  type    = string
+  type      = string
   sensitive = true
 }
