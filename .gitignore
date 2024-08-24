@@ -16,3 +16,6 @@ __pycache__/
 .terraform/**
 terraform.tfstate**
 terraform.tfvars**
+
+# Ignore zip files
+**/*.zip
